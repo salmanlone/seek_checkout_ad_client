@@ -12,6 +12,7 @@ cache:
 install:
   - npm install
 script:
+  - react-scripts test
   - react-scripts build
 # deploy:
 #   provider: heroku
