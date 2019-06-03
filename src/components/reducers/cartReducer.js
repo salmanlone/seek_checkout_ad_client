@@ -1,14 +1,13 @@
+import classic from './../../images/classic.jpg'
+import standout from './../../images/standout.jpg'
+import premium from './../../images/premium.jpg'
 import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '../actions/action-types/cart-actions'
-
 
 const initState = {
     items: [
-        {id:1,title:'Winter body', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:110},
-        {id:2,title:'Adidas', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:80},
-        {id:3,title:'Vans', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",price:120},
-        {id:4,title:'White', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:260},
-        {id:5,title:'Cropped-sho', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:160},
-        {id:6,title:'Blues', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",price:90}
+        {id:1,title:'Classic Ad', desc: "Classic ad fulfil the minimum requirements. Start with calssic for our classic service.", price:269.99,img:classic},
+        {id:2,title:'Standout Ad', desc: "Standout ad gives an upper hand to you on others ads. Do not trust me? try instead!", price:322.99,img:standout},
+        {id:3,title:'Premium Ad', desc: "Premium ad is a special service for special customers, be one of our exceptional customers.",price:394.99,img:premium},
     ],
     addedItems:[],
     total: 0
