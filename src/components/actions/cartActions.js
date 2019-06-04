@@ -28,3 +28,11 @@ export const addQuantity=(id)=>{
         id
     }
 }
+
+//login user
+export const loginUser=(username,password)=>{
+    return{
+        username,
+        password
+    }
+}
