@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux'
-import { loginUser } from './actions/cartActions'
 import { withRouter } from 'react-router-dom'
 
 class Login extends Component {
