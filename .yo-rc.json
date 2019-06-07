@@ -1,0 +1,8 @@
+{
+  "generator-react-promised-component": {
+    "promptValues": {
+      "generateErrorComponent": true,
+      "generateLoadingComponent": true
+    }
+  }
+}

@@ -31,9 +31,9 @@ class Cart extends Component {
                             </div>
 
                             <div className="item-desc">
-                                <span className="title">{item.title}</span>
+                                <span className="title">{item.name}</span>
                                 <p>{item.desc}</p>
-                                <p><b>Price: {item.price}$</b></p>
+                                <p><b>Price: {item.currency} {item.price}</b></p>
                                 <p>
                                     <b>Quantity: {item.quantity}</b>
                                 </p>

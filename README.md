@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Before running please make sure you are running the server on localhost:9000
+## Running instructions for the server is given in server project
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
