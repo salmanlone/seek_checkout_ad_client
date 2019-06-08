@@ -40,6 +40,61 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+# User Details
+Following are the user details to access server api endpoints which requires administration access.
+
+### Administraion acces:
+```shell
+username: admin
+password: admin
+```
+
+Following are the user details to login from client side UI.
+
+### Client side login details
+```shell
+username: unilever
+password: unilever
+```
+
+```shell
+username: apple
+password: apple
+```
+
+```shell
+username: nike
+password: nike
+```
+
+```shell
+username: ford
+password: ford
+```
+
+## User-Case Description
+
+### case 1: Unknown user access
+```shell
+As a user:
+    -> go to home page (in my case http://localhost:3000)
+    -> click on (plus) button to add items into cart.
+    -> click on cart icon from top nav bar to see items in the cart.
+    -> you can see items added in the cart with total showing at the bottom.
+```
+
+### case 2: Known user access
+```shell
+As a user:
+    -> go to home page (in my case http://localhost:3000)
+    -> click on login from header navigation bar.
+    -> use any of the above mentioned user crendentials for client side.
+    -> click on (plus) button, showing for each ad card on dashboard, to add items into cart.
+    -> click on cart icon from header nav bar to see items in the cart.
+    -> you can see items added in the cart with total showing at the bottom.
+    -> verify the use case for discount package based on logged in user.
+```
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
