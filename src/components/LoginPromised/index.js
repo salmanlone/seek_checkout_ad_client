@@ -4,11 +4,6 @@ import LoadingComponent from './components/loading_component.js';
 import ErrorComponent from './components/error_component.js';
 import SuccessComponent from './components/success_component.js';
 
-// Sample sleep method
-// function sleep (time)
-// {
-//   return new Promise((resolve) => setTimeout(resolve, time));
-// }
 
 var PromisedReactComponent = ReactPromisedComponent(
   "promise_name",
@@ -18,9 +13,6 @@ var PromisedReactComponent = ReactPromisedComponent(
 );
 
 export default class PromisedComponent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   // Promise creator method
   promiseGenerator(params) {

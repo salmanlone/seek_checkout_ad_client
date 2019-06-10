@@ -6,9 +6,6 @@ function sleep (time)
 }
 
 class SuccessComponent extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   componentDidMount() {
     sleep(500).then(() => this.handleSuccess(this.props.result.username));
